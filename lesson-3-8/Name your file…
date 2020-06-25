@@ -1,0 +1,18 @@
+package com.company.lesson6;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Enter some number: ");
+        Scanner numb = new Scanner(System.in);
+        int count = numb.nextInt();
+        for (int i = count; i >= 1; i--) {
+           for (int j = i; j > 1; j--) {
+            System.out.println("*");
+            }
+            System.out.println("*");
+       }
+   }
+}
